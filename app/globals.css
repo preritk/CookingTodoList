@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/* ── Design tokens: warm, food-forward palette ──────────────────────────── */
+@theme {
+  --color-cream: #fbf7f0;
+  --color-shell: #f3ece1;
+  --color-surface: #ffffff;
+  --color-charcoal: #2b2420;
+  --color-muted: #8a7e72;
+  --color-line: #ece3d6;
+
+  --color-terracotta: #e2654a;
+  --color-terracotta-dark: #c64f37;
+  --color-herb: #5b8c5a;
+  --color-herb-dark: #467046;
+  --color-amber: #e0a458;
+  --color-tomato: #d23f33;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+
+  --radius-card: 1.25rem;
+  --shadow-soft: 0 1px 2px rgba(43, 36, 32, 0.04), 0 8px 24px rgba(43, 36, 32, 0.08);
+  --shadow-lift: 0 4px 8px rgba(43, 36, 32, 0.06), 0 18px 40px rgba(43, 36, 32, 0.14);
+}
+
+:root {
+  --background: var(--color-cream);
+  --foreground: var(--color-charcoal);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Subtle warm gradient wash for the page backdrop */
+.app-backdrop {
+  background:
+    radial-gradient(1200px 600px at 100% -10%, rgba(226, 101, 74, 0.1), transparent 60%),
+    radial-gradient(1000px 500px at -10% 110%, rgba(91, 140, 90, 0.08), transparent 55%),
+    var(--color-cream);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

@@ -1,0 +1,473 @@
+[
+  {
+    "id": "b1",
+    "name": "Fluffy Buttermilk Pancakes",
+    "slot": "breakfast",
+    "baseServings": 2,
+    "prepTimeMin": 20,
+    "dietaryTags": ["vegetarian"],
+    "image": "https://loremflickr.com/800/600/pancakes?lock=11",
+    "description": "Stacks of golden, syrup-ready pancakes.",
+    "ingredients": [
+      { "name": "All-purpose flour", "qty": 200, "unit": "g", "category": "pantry", "cost": 0.4, "role": "base" },
+      { "name": "Milk", "qty": 250, "unit": "ml", "category": "dairy", "cost": 0.6, "role": "liquid" },
+      { "name": "Eggs", "qty": 2, "unit": "unit", "category": "dairy", "cost": 0.7, "role": "binder" },
+      { "name": "Butter", "qty": 30, "unit": "g", "category": "dairy", "cost": 0.5, "role": "fat" },
+      { "name": "Maple syrup", "qty": 60, "unit": "ml", "category": "pantry", "cost": 1.2, "role": "topping" }
+    ],
+    "steps": [
+      "Whisk flour, milk and eggs into a smooth batter.",
+      "Melt butter in a pan over medium heat.",
+      "Pour batter and cook until bubbles form, then flip.",
+      "Serve warm with maple syrup."
+    ]
+  },
+  {
+    "id": "b2",
+    "name": "Avocado Toast with Chili Flakes",
+    "slot": "breakfast",
+    "baseServings": 2,
+    "prepTimeMin": 10,
+    "dietaryTags": ["vegetarian", "vegan", "dairy-free"],
+    "image": "https://loremflickr.com/800/600/avocado,toast?lock=12",
+    "description": "Crusty sourdough piled with smashed avocado.",
+    "ingredients": [
+      { "name": "Sourdough bread", "qty": 4, "unit": "slice", "category": "bakery", "cost": 1.2, "role": "base" },
+      { "name": "Avocado", "qty": 2, "unit": "unit", "category": "produce", "cost": 2.0, "role": "fat" },
+      { "name": "Lemon", "qty": 1, "unit": "unit", "category": "produce", "cost": 0.4, "role": "acid" },
+      { "name": "Chili flakes", "qty": 2, "unit": "tsp", "category": "spices", "cost": 0.1, "role": "spice" },
+      { "name": "Olive oil", "qty": 15, "unit": "ml", "category": "pantry", "cost": 0.3, "role": "fat" }
+    ],
+    "steps": [
+      "Toast the sourdough until crisp.",
+      "Mash avocado with lemon juice and salt.",
+      "Spread over toast, drizzle oil, scatter chili flakes."
+    ]
+  },
+  {
+    "id": "b3",
+    "name": "Greek Yogurt Berry Parfait",
+    "slot": "breakfast",
+    "baseServings": 2,
+    "prepTimeMin": 8,
+    "dietaryTags": ["vegetarian", "gluten-free"],
+    "image": "https://loremflickr.com/800/600/yogurt,parfait?lock=13",
+    "description": "Layered yogurt, granola and fresh berries.",
+    "ingredients": [
+      { "name": "Greek yogurt", "qty": 400, "unit": "g", "category": "dairy", "cost": 1.8, "role": "base" },
+      { "name": "Granola", "qty": 120, "unit": "g", "category": "pantry", "cost": 1.0, "role": "crunch" },
+      { "name": "Mixed berries", "qty": 200, "unit": "g", "category": "produce", "cost": 2.5, "role": "fruit" },
+      { "name": "Honey", "qty": 30, "unit": "ml", "category": "pantry", "cost": 0.6, "role": "sweetener" }
+    ],
+    "steps": [
+      "Spoon yogurt into glasses.",
+      "Layer with granola and berries.",
+      "Drizzle honey on top."
+    ]
+  },
+  {
+    "id": "b4",
+    "name": "Veggie Scramble",
+    "slot": "breakfast",
+    "baseServings": 2,
+    "prepTimeMin": 15,
+    "dietaryTags": ["vegetarian", "gluten-free"],
+    "image": "https://loremflickr.com/800/600/scrambled,eggs?lock=14",
+    "description": "Soft-scrambled eggs with peppers and spinach.",
+    "ingredients": [
+      { "name": "Eggs", "qty": 4, "unit": "unit", "category": "dairy", "cost": 1.4, "role": "protein" },
+      { "name": "Bell pepper", "qty": 1, "unit": "unit", "category": "produce", "cost": 0.8, "role": "veg" },
+      { "name": "Spinach", "qty": 100, "unit": "g", "category": "produce", "cost": 0.9, "role": "veg" },
+      { "name": "Butter", "qty": 20, "unit": "g", "category": "dairy", "cost": 0.35, "role": "fat" },
+      { "name": "Salt", "qty": 1, "unit": "tsp", "category": "spices", "cost": 0.02, "role": "season" }
+    ],
+    "steps": [
+      "Sauté peppers and spinach in butter.",
+      "Add beaten eggs and stir gently.",
+      "Season and serve immediately."
+    ]
+  },
+  {
+    "id": "b5",
+    "name": "Overnight Oats with Banana",
+    "slot": "breakfast",
+    "baseServings": 2,
+    "prepTimeMin": 5,
+    "dietaryTags": ["vegetarian", "vegan", "dairy-free"],
+    "image": "https://loremflickr.com/800/600/oatmeal,oats?lock=15",
+    "description": "No-cook oats soaked overnight with banana.",
+    "ingredients": [
+      { "name": "Rolled oats", "qty": 160, "unit": "g", "category": "pantry", "cost": 0.5, "role": "base" },
+      { "name": "Almond milk", "qty": 300, "unit": "ml", "category": "beverages", "cost": 0.9, "role": "liquid" },
+      { "name": "Banana", "qty": 2, "unit": "unit", "category": "produce", "cost": 0.5, "role": "fruit" },
+      { "name": "Chia seeds", "qty": 20, "unit": "g", "category": "pantry", "cost": 0.4, "role": "thickener" },
+      { "name": "Maple syrup", "qty": 30, "unit": "ml", "category": "pantry", "cost": 0.6, "role": "sweetener" }
+    ],
+    "steps": [
+      "Combine oats, milk, chia and syrup in a jar.",
+      "Refrigerate overnight.",
+      "Top with sliced banana before serving."
+    ]
+  },
+  {
+    "id": "b6",
+    "name": "Breakfast Burrito",
+    "slot": "breakfast",
+    "baseServings": 2,
+    "prepTimeMin": 20,
+    "dietaryTags": ["vegetarian"],
+    "image": "https://loremflickr.com/800/600/breakfast,burrito?lock=16",
+    "description": "Warm tortillas stuffed with eggs and beans.",
+    "ingredients": [
+      { "name": "Flour tortillas", "qty": 2, "unit": "unit", "category": "bakery", "cost": 0.8, "role": "wrap" },
+      { "name": "Eggs", "qty": 3, "unit": "unit", "category": "dairy", "cost": 1.05, "role": "protein" },
+      { "name": "Black beans", "qty": 200, "unit": "g", "category": "pantry", "cost": 0.9, "role": "protein" },
+      { "name": "Cheddar cheese", "qty": 80, "unit": "g", "category": "dairy", "cost": 1.1, "role": "fat" },
+      { "name": "Salsa", "qty": 80, "unit": "g", "category": "pantry", "cost": 0.7, "role": "sauce" }
+    ],
+    "steps": [
+      "Scramble the eggs and warm the beans.",
+      "Fill tortillas with eggs, beans, cheese and salsa.",
+      "Roll tightly and toast seam-side down."
+    ]
+  },
+  {
+    "id": "b7",
+    "name": "Smoked Salmon Bagel",
+    "slot": "breakfast",
+    "baseServings": 2,
+    "prepTimeMin": 10,
+    "dietaryTags": [],
+    "image": "https://loremflickr.com/800/600/bagel,salmon?lock=17",
+    "description": "Toasted bagel with cream cheese and salmon.",
+    "ingredients": [
+      { "name": "Bagels", "qty": 2, "unit": "unit", "category": "bakery", "cost": 1.4, "role": "base" },
+      { "name": "Cream cheese", "qty": 80, "unit": "g", "category": "dairy", "cost": 1.0, "role": "fat" },
+      { "name": "Smoked salmon", "qty": 120, "unit": "g", "category": "meat-seafood", "cost": 4.5, "role": "protein" },
+      { "name": "Red onion", "qty": 0.5, "unit": "unit", "category": "produce", "cost": 0.3, "role": "veg" },
+      { "name": "Capers", "qty": 20, "unit": "g", "category": "pantry", "cost": 0.6, "role": "garnish" }
+    ],
+    "steps": [
+      "Slice and toast the bagels.",
+      "Spread cream cheese, layer salmon and onion.",
+      "Finish with capers."
+    ]
+  },
+
+  {
+    "id": "l1",
+    "name": "Chicken Caesar Salad",
+    "slot": "lunch",
+    "baseServings": 2,
+    "prepTimeMin": 20,
+    "dietaryTags": [],
+    "image": "https://loremflickr.com/800/600/caesar,salad?lock=21",
+    "description": "Crisp romaine, grilled chicken and parmesan.",
+    "ingredients": [
+      { "name": "Chicken breast", "qty": 300, "unit": "g", "category": "meat-seafood", "cost": 3.6, "role": "protein" },
+      { "name": "Romaine lettuce", "qty": 1, "unit": "unit", "category": "produce", "cost": 1.2, "role": "veg" },
+      { "name": "Parmesan cheese", "qty": 60, "unit": "g", "category": "dairy", "cost": 1.5, "role": "fat" },
+      { "name": "Croutons", "qty": 80, "unit": "g", "category": "bakery", "cost": 0.7, "role": "crunch" },
+      { "name": "Caesar dressing", "qty": 80, "unit": "ml", "category": "pantry", "cost": 0.9, "role": "sauce" }
+    ],
+    "steps": [
+      "Grill and slice the chicken.",
+      "Toss romaine with dressing.",
+      "Add chicken, croutons and parmesan."
+    ]
+  },
+  {
+    "id": "l2",
+    "name": "Margherita Flatbread",
+    "slot": "lunch",
+    "baseServings": 2,
+    "prepTimeMin": 18,
+    "dietaryTags": ["vegetarian"],
+    "image": "https://loremflickr.com/800/600/flatbread,pizza?lock=22",
+    "description": "Tomato, mozzarella and basil on crisp flatbread.",
+    "ingredients": [
+      { "name": "Flatbread", "qty": 2, "unit": "unit", "category": "bakery", "cost": 1.4, "role": "base" },
+      { "name": "Mozzarella cheese", "qty": 150, "unit": "g", "category": "dairy", "cost": 1.8, "role": "fat" },
+      { "name": "Tomato", "qty": 2, "unit": "unit", "category": "produce", "cost": 0.9, "role": "veg" },
+      { "name": "Fresh basil", "qty": 15, "unit": "g", "category": "produce", "cost": 0.6, "role": "herb" },
+      { "name": "Olive oil", "qty": 15, "unit": "ml", "category": "pantry", "cost": 0.3, "role": "fat" }
+    ],
+    "steps": [
+      "Top flatbread with sliced tomato and mozzarella.",
+      "Bake until cheese melts.",
+      "Finish with basil and olive oil."
+    ]
+  },
+  {
+    "id": "l3",
+    "name": "Quinoa Buddha Bowl",
+    "slot": "lunch",
+    "baseServings": 2,
+    "prepTimeMin": 25,
+    "dietaryTags": ["vegetarian", "vegan", "gluten-free", "dairy-free"],
+    "image": "https://loremflickr.com/800/600/buddha,bowl?lock=23",
+    "description": "Quinoa, roasted veg and chickpeas with tahini.",
+    "ingredients": [
+      { "name": "Quinoa", "qty": 160, "unit": "g", "category": "pantry", "cost": 1.1, "role": "base" },
+      { "name": "Chickpeas", "qty": 240, "unit": "g", "category": "pantry", "cost": 1.0, "role": "protein" },
+      { "name": "Sweet potato", "qty": 2, "unit": "unit", "category": "produce", "cost": 1.2, "role": "veg" },
+      { "name": "Spinach", "qty": 100, "unit": "g", "category": "produce", "cost": 0.9, "role": "veg" },
+      { "name": "Tahini", "qty": 40, "unit": "g", "category": "pantry", "cost": 0.8, "role": "sauce" }
+    ],
+    "steps": [
+      "Cook quinoa and roast sweet potato and chickpeas.",
+      "Assemble bowls with spinach.",
+      "Drizzle with tahini dressing."
+    ]
+  },
+  {
+    "id": "l4",
+    "name": "Turkey Club Sandwich",
+    "slot": "lunch",
+    "baseServings": 2,
+    "prepTimeMin": 12,
+    "dietaryTags": [],
+    "image": "https://loremflickr.com/800/600/club,sandwich?lock=24",
+    "description": "Triple-decker with turkey, bacon and tomato.",
+    "ingredients": [
+      { "name": "Sandwich bread", "qty": 6, "unit": "slice", "category": "bakery", "cost": 1.0, "role": "base" },
+      { "name": "Turkey breast", "qty": 200, "unit": "g", "category": "meat-seafood", "cost": 2.8, "role": "protein" },
+      { "name": "Bacon", "qty": 100, "unit": "g", "category": "meat-seafood", "cost": 2.0, "role": "protein" },
+      { "name": "Tomato", "qty": 1, "unit": "unit", "category": "produce", "cost": 0.45, "role": "veg" },
+      { "name": "Lettuce", "qty": 60, "unit": "g", "category": "produce", "cost": 0.5, "role": "veg" },
+      { "name": "Mayonnaise", "qty": 40, "unit": "g", "category": "pantry", "cost": 0.4, "role": "sauce" }
+    ],
+    "steps": [
+      "Toast the bread and crisp the bacon.",
+      "Layer turkey, bacon, tomato and lettuce with mayo.",
+      "Stack, skewer and slice."
+    ]
+  },
+  {
+    "id": "l5",
+    "name": "Lentil Soup",
+    "slot": "lunch",
+    "baseServings": 2,
+    "prepTimeMin": 30,
+    "dietaryTags": ["vegetarian", "vegan", "gluten-free", "dairy-free"],
+    "image": "https://loremflickr.com/800/600/lentil,soup?lock=25",
+    "description": "Hearty spiced red lentil soup.",
+    "ingredients": [
+      { "name": "Red lentils", "qty": 200, "unit": "g", "category": "pantry", "cost": 0.8, "role": "protein" },
+      { "name": "Onion", "qty": 1, "unit": "unit", "category": "produce", "cost": 0.3, "role": "veg" },
+      { "name": "Carrot", "qty": 2, "unit": "unit", "category": "produce", "cost": 0.4, "role": "veg" },
+      { "name": "Garlic", "qty": 2, "unit": "clove", "category": "produce", "cost": 0.1, "role": "aromatic" },
+      { "name": "Cumin", "qty": 1, "unit": "tbsp", "category": "spices", "cost": 0.15, "role": "spice" },
+      { "name": "Vegetable stock", "qty": 800, "unit": "ml", "category": "pantry", "cost": 0.7, "role": "liquid" }
+    ],
+    "steps": [
+      "Sauté onion, carrot and garlic.",
+      "Add lentils, cumin and stock.",
+      "Simmer 20 minutes and blend lightly."
+    ]
+  },
+  {
+    "id": "l6",
+    "name": "Caprese Pasta Salad",
+    "slot": "lunch",
+    "baseServings": 2,
+    "prepTimeMin": 22,
+    "dietaryTags": ["vegetarian"],
+    "image": "https://loremflickr.com/800/600/pasta,salad?lock=26",
+    "description": "Cold pasta with mozzarella, tomato and basil.",
+    "ingredients": [
+      { "name": "Pasta", "qty": 200, "unit": "g", "category": "pantry", "cost": 0.6, "role": "base" },
+      { "name": "Mozzarella cheese", "qty": 125, "unit": "g", "category": "dairy", "cost": 1.5, "role": "fat" },
+      { "name": "Cherry tomatoes", "qty": 200, "unit": "g", "category": "produce", "cost": 1.3, "role": "veg" },
+      { "name": "Fresh basil", "qty": 15, "unit": "g", "category": "produce", "cost": 0.6, "role": "herb" },
+      { "name": "Olive oil", "qty": 30, "unit": "ml", "category": "pantry", "cost": 0.6, "role": "fat" }
+    ],
+    "steps": [
+      "Cook and cool the pasta.",
+      "Toss with tomatoes, mozzarella and basil.",
+      "Dress with olive oil and season."
+    ]
+  },
+  {
+    "id": "l7",
+    "name": "Shrimp Tacos",
+    "slot": "lunch",
+    "baseServings": 2,
+    "prepTimeMin": 20,
+    "dietaryTags": ["dairy-free"],
+    "image": "https://loremflickr.com/800/600/shrimp,tacos?lock=27",
+    "description": "Spiced shrimp in soft tortillas with slaw.",
+    "ingredients": [
+      { "name": "Shrimp", "qty": 250, "unit": "g", "category": "meat-seafood", "cost": 4.0, "role": "protein" },
+      { "name": "Corn tortillas", "qty": 6, "unit": "unit", "category": "bakery", "cost": 1.0, "role": "wrap" },
+      { "name": "Cabbage", "qty": 150, "unit": "g", "category": "produce", "cost": 0.5, "role": "veg" },
+      { "name": "Lime", "qty": 1, "unit": "unit", "category": "produce", "cost": 0.3, "role": "acid" },
+      { "name": "Paprika", "qty": 1, "unit": "tbsp", "category": "spices", "cost": 0.15, "role": "spice" }
+    ],
+    "steps": [
+      "Season and sear the shrimp.",
+      "Warm the tortillas.",
+      "Fill with shrimp, cabbage and a squeeze of lime."
+    ]
+  },
+
+  {
+    "id": "d1",
+    "name": "Spaghetti Bolognese",
+    "slot": "dinner",
+    "baseServings": 2,
+    "prepTimeMin": 35,
+    "dietaryTags": [],
+    "image": "https://loremflickr.com/800/600/spaghetti,bolognese?lock=31",
+    "description": "Classic slow-simmered beef ragù over spaghetti.",
+    "ingredients": [
+      { "name": "Spaghetti", "qty": 200, "unit": "g", "category": "pantry", "cost": 0.6, "role": "base" },
+      { "name": "Ground beef", "qty": 300, "unit": "g", "category": "meat-seafood", "cost": 3.5, "role": "protein" },
+      { "name": "Canned tomatoes", "qty": 400, "unit": "g", "category": "pantry", "cost": 0.9, "role": "sauce" },
+      { "name": "Onion", "qty": 1, "unit": "unit", "category": "produce", "cost": 0.3, "role": "veg" },
+      { "name": "Garlic", "qty": 2, "unit": "clove", "category": "produce", "cost": 0.1, "role": "aromatic" },
+      { "name": "Olive oil", "qty": 15, "unit": "ml", "category": "pantry", "cost": 0.3, "role": "fat" }
+    ],
+    "steps": [
+      "Brown the beef with onion and garlic.",
+      "Add tomatoes and simmer 25 minutes.",
+      "Toss with cooked spaghetti."
+    ]
+  },
+  {
+    "id": "d2",
+    "name": "Teriyaki Salmon with Rice",
+    "slot": "dinner",
+    "baseServings": 2,
+    "prepTimeMin": 30,
+    "dietaryTags": ["dairy-free"],
+    "image": "https://loremflickr.com/800/600/salmon,rice?lock=32",
+    "description": "Glazed salmon fillets over steamed rice.",
+    "ingredients": [
+      { "name": "Salmon fillet", "qty": 300, "unit": "g", "category": "meat-seafood", "cost": 5.0, "role": "protein" },
+      { "name": "White rice", "qty": 200, "unit": "g", "category": "pantry", "cost": 0.5, "role": "base" },
+      { "name": "Soy sauce", "qty": 40, "unit": "ml", "category": "pantry", "cost": 0.4, "role": "sauce" },
+      { "name": "Honey", "qty": 30, "unit": "ml", "category": "pantry", "cost": 0.6, "role": "sweetener" },
+      { "name": "Broccoli", "qty": 200, "unit": "g", "category": "produce", "cost": 1.0, "role": "veg" }
+    ],
+    "steps": [
+      "Steam the rice and broccoli.",
+      "Glaze salmon with soy and honey, then roast.",
+      "Serve salmon over rice with broccoli."
+    ]
+  },
+  {
+    "id": "d3",
+    "name": "Vegetable Stir-Fry with Tofu",
+    "slot": "dinner",
+    "baseServings": 2,
+    "prepTimeMin": 25,
+    "dietaryTags": ["vegetarian", "vegan", "dairy-free"],
+    "image": "https://loremflickr.com/800/600/tofu,stirfry?lock=33",
+    "description": "Crisp tofu and vegetables in a savory sauce.",
+    "ingredients": [
+      { "name": "Tofu", "qty": 300, "unit": "g", "category": "produce", "cost": 1.8, "role": "protein" },
+      { "name": "White rice", "qty": 200, "unit": "g", "category": "pantry", "cost": 0.5, "role": "base" },
+      { "name": "Bell pepper", "qty": 1, "unit": "unit", "category": "produce", "cost": 0.8, "role": "veg" },
+      { "name": "Broccoli", "qty": 200, "unit": "g", "category": "produce", "cost": 1.0, "role": "veg" },
+      { "name": "Soy sauce", "qty": 40, "unit": "ml", "category": "pantry", "cost": 0.4, "role": "sauce" },
+      { "name": "Garlic", "qty": 2, "unit": "clove", "category": "produce", "cost": 0.1, "role": "aromatic" }
+    ],
+    "steps": [
+      "Press and sear the tofu until golden.",
+      "Stir-fry vegetables with garlic.",
+      "Add soy sauce and toss; serve over rice."
+    ]
+  },
+  {
+    "id": "d4",
+    "name": "Margherita Pizza",
+    "slot": "dinner",
+    "baseServings": 2,
+    "prepTimeMin": 30,
+    "dietaryTags": ["vegetarian"],
+    "image": "https://loremflickr.com/800/600/margherita,pizza?lock=34",
+    "description": "Homemade pizza with tomato and mozzarella.",
+    "ingredients": [
+      { "name": "Pizza dough", "qty": 400, "unit": "g", "category": "bakery", "cost": 1.5, "role": "base" },
+      { "name": "Canned tomatoes", "qty": 200, "unit": "g", "category": "pantry", "cost": 0.5, "role": "sauce" },
+      { "name": "Mozzarella cheese", "qty": 200, "unit": "g", "category": "dairy", "cost": 2.4, "role": "fat" },
+      { "name": "Fresh basil", "qty": 15, "unit": "g", "category": "produce", "cost": 0.6, "role": "herb" },
+      { "name": "Olive oil", "qty": 15, "unit": "ml", "category": "pantry", "cost": 0.3, "role": "fat" }
+    ],
+    "steps": [
+      "Stretch the dough and spread tomato sauce.",
+      "Top with mozzarella and bake hot.",
+      "Finish with basil and olive oil."
+    ]
+  },
+  {
+    "id": "d5",
+    "name": "Chicken Curry",
+    "slot": "dinner",
+    "baseServings": 2,
+    "prepTimeMin": 40,
+    "dietaryTags": ["gluten-free", "dairy-free"],
+    "image": "https://loremflickr.com/800/600/chicken,curry?lock=35",
+    "description": "Fragrant coconut chicken curry with rice.",
+    "ingredients": [
+      { "name": "Chicken breast", "qty": 400, "unit": "g", "category": "meat-seafood", "cost": 4.8, "role": "protein" },
+      { "name": "Coconut milk", "qty": 400, "unit": "ml", "category": "pantry", "cost": 1.4, "role": "sauce" },
+      { "name": "Onion", "qty": 1, "unit": "unit", "category": "produce", "cost": 0.3, "role": "veg" },
+      { "name": "Garlic", "qty": 3, "unit": "clove", "category": "produce", "cost": 0.15, "role": "aromatic" },
+      { "name": "Curry powder", "qty": 2, "unit": "tbsp", "category": "spices", "cost": 0.3, "role": "spice" },
+      { "name": "White rice", "qty": 200, "unit": "g", "category": "pantry", "cost": 0.5, "role": "base" }
+    ],
+    "steps": [
+      "Brown chicken with onion and garlic.",
+      "Stir in curry powder and coconut milk.",
+      "Simmer until thick; serve with rice."
+    ]
+  },
+  {
+    "id": "d6",
+    "name": "Black Bean Chili",
+    "slot": "dinner",
+    "baseServings": 2,
+    "prepTimeMin": 35,
+    "dietaryTags": ["vegetarian", "vegan", "gluten-free", "dairy-free"],
+    "image": "https://loremflickr.com/800/600/chili,beans?lock=36",
+    "description": "Smoky three-bean chili with peppers.",
+    "ingredients": [
+      { "name": "Black beans", "qty": 400, "unit": "g", "category": "pantry", "cost": 1.4, "role": "protein" },
+      { "name": "Canned tomatoes", "qty": 400, "unit": "g", "category": "pantry", "cost": 0.9, "role": "sauce" },
+      { "name": "Bell pepper", "qty": 1, "unit": "unit", "category": "produce", "cost": 0.8, "role": "veg" },
+      { "name": "Onion", "qty": 1, "unit": "unit", "category": "produce", "cost": 0.3, "role": "veg" },
+      { "name": "Cumin", "qty": 1, "unit": "tbsp", "category": "spices", "cost": 0.15, "role": "spice" },
+      { "name": "Paprika", "qty": 1, "unit": "tbsp", "category": "spices", "cost": 0.15, "role": "spice" }
+    ],
+    "steps": [
+      "Sauté onion and pepper.",
+      "Add beans, tomatoes and spices.",
+      "Simmer 25 minutes until thick."
+    ]
+  },
+  {
+    "id": "d7",
+    "name": "Beef Stir-Fry Noodles",
+    "slot": "dinner",
+    "baseServings": 2,
+    "prepTimeMin": 25,
+    "dietaryTags": ["dairy-free"],
+    "image": "https://loremflickr.com/800/600/beef,noodles?lock=37",
+    "description": "Wok-tossed noodles with beef and vegetables.",
+    "ingredients": [
+      { "name": "Egg noodles", "qty": 200, "unit": "g", "category": "pantry", "cost": 0.8, "role": "base" },
+      { "name": "Ground beef", "qty": 250, "unit": "g", "category": "meat-seafood", "cost": 3.0, "role": "protein" },
+      { "name": "Bell pepper", "qty": 1, "unit": "unit", "category": "produce", "cost": 0.8, "role": "veg" },
+      { "name": "Carrot", "qty": 1, "unit": "unit", "category": "produce", "cost": 0.2, "role": "veg" },
+      { "name": "Soy sauce", "qty": 40, "unit": "ml", "category": "pantry", "cost": 0.4, "role": "sauce" },
+      { "name": "Garlic", "qty": 2, "unit": "clove", "category": "produce", "cost": 0.1, "role": "aromatic" }
+    ],
+    "steps": [
+      "Boil the noodles and drain.",
+      "Stir-fry beef with garlic and vegetables.",
+      "Add noodles and soy sauce; toss to coat."
+    ]
+  }
+]
